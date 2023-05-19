@@ -1,7 +1,7 @@
 import { ChevronDown, ChevronUp } from "../data/Icons";
 
 const CartItem = ({...item}) => {
-  const {id, img, title, price, amount} = item;
+  const { img, title, price, amount} = item;
   return (
     <>
       <article className="cart-item">
